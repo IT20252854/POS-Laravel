@@ -3,6 +3,7 @@
 @section('title', 'Customer Management')
 @section('content-header', 'Customer Management')
 @section('content-actions')
+<a href="#" class="btn btn-primary"><i class="fas fa-download"></i> &nbsp;&nbsp; Download Report</a>
     <a href="{{route('customers.create')}}" class="btn btn-success"><i class="fas fa-plus"></i> Add New Customer</a>
 @endsection
 @section('css')
