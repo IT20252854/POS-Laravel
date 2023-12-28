@@ -5,7 +5,7 @@
 @section('content-actions')
 
                              
-                                <a href="#" class="btn btn-primary"><i class="fas fa-download"></i> &nbsp;&nbsp; Download Report</a>
+                                <a href="report" class="btn btn-primary"><i class="fas fa-download"></i> &nbsp;&nbsp; Download Products List</a>
                                    
                                 <a href="{{route('products.create')}}" class="btn btn-success"><i class="fas fa-plus"></i>&nbsp;&nbsp;  Add New Product</a>
                                 
@@ -48,6 +48,7 @@
                     <td>{{$product->created_at}}</td>
                     <td>{{$product->updated_at}}</td>
                     <td>
+                        
                         <a href="{{ route('products.edit', $product) }}" class="btn btn-primary"><i
                                 class="fas fa-edit"></i></a>
                         <button class="btn btn-danger btn-delete" data-url="{{route('products.destroy', $product)}}"><i
