@@ -7,6 +7,7 @@ use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\SettingController;
 use App\Http\Controllers\PdfgenerateController;
+use App\Http\Controllers\custPdfgenerateController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
@@ -22,6 +23,7 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::post('/settings', [SettingController::class, 'store'])->name('settings.store');
     Route::resource('products', ProductController::class);
     Route::resource('report', PdfgenerateController::class);
+    Route::resource('creport', custPdfgenerateController::class);
     Route::resource('customers', CustomerController::class);
     Route::resource('orders', OrderController::class);
 
