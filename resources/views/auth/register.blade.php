@@ -1,6 +1,22 @@
 @extends('layouts.app')
 
 @section('content')
+
+
+<style>
+    
+
+    body {
+background-image: url("/images/pic.jpg");
+background-color: #cccccc; /* Used if the image is unavailable */
+height: 150; /* You must set a specified height */
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+</style>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">

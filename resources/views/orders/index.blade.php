@@ -3,6 +3,7 @@
 @section('title', 'Orders List')
 @section('content-header', 'Order List')
 @section('content-actions')
+<a href="oreport" class="btn btn-primary"><i class="fas fa-download"></i> &nbsp;&nbsp; Download Report</a>
     <a href="{{route('cart.index')}}" class="btn btn-success">Open POS</a>
 @endsection
 
