@@ -607,6 +607,8 @@ class ComposerStaticInit6939a84ded1af579b81c9c6420f30505
         'App\\Http\\Controllers\\PdfgenerateController' => __DIR__ . '/../..' . '/app/Http/Controllers/PdfgenerateController.php',
         'App\\Http\\Controllers\\ProductController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProductController.php',
         'App\\Http\\Controllers\\SettingController' => __DIR__ . '/../..' . '/app/Http/Controllers/SettingController.php',
+        'App\\Http\\Controllers\\custPdfgenerateController' => __DIR__ . '/../..' . '/app/Http/Controllers/custPdfgenerateController.php',
+        'App\\Http\\Controllers\\orderPdfgenerateController' => __DIR__ . '/../..' . '/app/Http/Controllers/orderPdfgenerateController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',

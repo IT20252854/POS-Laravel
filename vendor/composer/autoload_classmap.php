@@ -22,6 +22,8 @@ return array(
     'App\\Http\\Controllers\\PdfgenerateController' => $baseDir . '/app/Http/Controllers/PdfgenerateController.php',
     'App\\Http\\Controllers\\ProductController' => $baseDir . '/app/Http/Controllers/ProductController.php',
     'App\\Http\\Controllers\\SettingController' => $baseDir . '/app/Http/Controllers/SettingController.php',
+    'App\\Http\\Controllers\\custPdfgenerateController' => $baseDir . '/app/Http/Controllers/custPdfgenerateController.php',
+    'App\\Http\\Controllers\\orderPdfgenerateController' => $baseDir . '/app/Http/Controllers/orderPdfgenerateController.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
     'App\\Http\\Middleware\\CheckForMaintenanceMode' => $baseDir . '/app/Http/Middleware/CheckForMaintenanceMode.php',
